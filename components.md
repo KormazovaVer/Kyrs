@@ -109,8 +109,8 @@ class Trip {
   date
 }
 
-User <- Route
-Route <- Trip
+User -> Route
+Route -> Trip
 
 @enduml
 ```
